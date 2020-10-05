@@ -1,1 +1,1 @@
-web: gunicorn xc1527-polls.wsgi
+web: gunicorn polls-xc1527.wsgi
