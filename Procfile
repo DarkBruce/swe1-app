@@ -1,1 +1,1 @@
-web: gunicorn 6063polls.wsgi
+web: gunicorn xc1527-polls.wsgi
