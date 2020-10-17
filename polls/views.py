@@ -1,4 +1,5 @@
-from django.http import HttpResponse, Http404, HttpResponseRedirect
+# from django.http import HttpResponse, Http404
+from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.views import generic
@@ -7,6 +8,8 @@ from django.utils import timezone
 from .models import Question, Choice
 
 # Create your views here.
+
+
 class IndexView(generic.ListView):
     model = Question
     template_name = "polls/index.html"
