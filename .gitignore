@@ -1,0 +1,16 @@
+# for this Django project
+__pycache__/
+.py[cod]
+db.sqlite3
+staticfiles/
+.coverage
+
+# Environments
+.env
+.venv
+env/
+*venv/
+ENV/
+env.bak/
+venv.bak/
+clear/
